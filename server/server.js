@@ -12,8 +12,6 @@ const port = process.env.PORT;
 
 require('../routes/auth')(app);
 
-
-
 app.listen(port, () => {
     console.log(`Server is up at ${port}`);
   });
